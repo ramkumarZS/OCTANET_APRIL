@@ -1,0 +1,80 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-size: cover;
+        position:-webkit-sticky;
+    background-image:url($RRDVLIX.jpg);
+
+}
+.container{
+    margin: 30px;
+    font-weight: bold;
+        display:flex;
+}
+p{
+    size: bold;
+    padding-left:60px;
+    color: rgb(1, 55, 21);
+    font-size: 35px;
+    font-family:sans-serif;
+}
+ul {
+    padding-left: 35%;
+    text-decoration: none;
+    list-style: none;
+    display: flex; 
+}
+a{
+    text-decoration:none;
+}
+li{
+    margin-top:10px;
+    margin-left:100px;
+    color: rgb(1, 59, 63);
+    font-size: 30px;
+    font-family:sans-serif;
+}
+a:hover li{
+    color: rgb(0, 109, 47);
+text-transform:uppercase;
+}
+.main
+{
+text-align: center;
+}
+
+input{
+    margin-top: 10px;
+    text-transform: capitalize;
+    font-family:serif; 
+    margin-bottom: 20px;
+}
+.value{
+    font-family: cursive;
+font-weight:bold;
+    color: rgb(0, 222, 251);
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+    padding-bottom: 20px;
+    border-radius: 100px;
+    border-color: rgb(0, 96, 107);
+    background-color: rgba(93, 125, 117, 0.609);
+    height:40px;
+    width:400px;
+}
+.value:hover{
+
+    background-color: #38000029;
+}
+.todo:has(.box:checked){
+    
+    text-decoration: line-through rgb(255, 0, 0) 5.5px;
+}
+
+
+
+
